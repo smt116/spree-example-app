@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
-gem 'dotenv-rails'
-
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 
@@ -49,3 +47,6 @@ end
 gem 'spree', '2.1.4'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-1-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-1-stable'
+
+gem 'dotenv-rails'
+gem 'shelly-dependencies'
