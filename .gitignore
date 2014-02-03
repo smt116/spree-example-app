@@ -18,3 +18,5 @@
 .env.production
 .env.development
 .env.test
+
+/public/spree/*
