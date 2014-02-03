@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Mystore::Application.config.secret_key_base = 'b274291c51aeb7c5d8bfffe99f456cdf8a539dd193faef2a29cd7c3757837278ceb1a5f1a525339686ccbd90ed67e5994e34041a1ef7d3d3f3bac0157c1d03dd'
+Mystore::Application.config.secret_key_base = ENV['SECRET_KEY_BASE']
